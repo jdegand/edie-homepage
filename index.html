@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="devchallenges.png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!--Local CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <title>Edie Homepage</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light w-100 mx-auto">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-md-5 fs-1" href="#home">Edie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto me-4 mb-2 mb-lg-0 d-flex justify-content-evenly">
+            <li class="nav-item mx-auto">
+              <a aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects">Our Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a href="#hero-input">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main id="home">
+      <section class="mx-auto w-100">
+        <div class="container">
+          <a href="#hero-input" class="text-primary fw-bolder mt-5">Unhappy with your website?</a>
+          <h1 class="my-4">We create beautiful and fast web services</h1>
+        </div>
+        <img class="container ms-md-5 rounded-2 heroImage" src="heroImage.jpg" alt=""/>
+        <div class="container">
+          <h2 class="my-4">Story, emotion and purpose</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas architecto quod sint voluptates debitis sequi vel magni laudantium dicta adipisci, libero placeat repellat atque quibusdam fugit. Distinctio excepturi libero sapiente.
+          Consequuntur quod distinctio, id officiis corrupti in neque reiciendis eligendi fuga laboriosam sit exercitationem ad atque voluptatibus! Aliquam error soluta vel cum iusto, minima tempora, sed in quidem quod aut!</p>
+          <p>Want us to contact you?</p>
+          <form class="col-md-8 col-lg-4 position-relative">
+            <label for="hero-input" class="visually-hidden">Email Address</label>
+            <input id="hero-input" type="email" placeholder="Email" name="hero-input" class="form-control" required />
+            <button class="btn btn-primary rounded position-absolute top-0 end-0">Join</button>
+          </form>
+        </div>
+      </section>
+      <section id="services" class="container">
+        <h3 class="my-4">We offer high demand services</h3>
+        <div class="card-group">
+          <div class="card border-0">
+            <div class="circle-bg"><i class="bi bi-pencil"></i></div>
+            <div class="card-body">
+              <h4 class="card-title">UI/UX Design</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio assumenda ducimus nostrum. Incidunt similique veritatis veniam beatae ipsa mollitia! Nemo ipsa nihil nulla itaque unde vel ad voluptates architecto praesentium.</p>
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="circle-bg circle-2"><i class="bi bi-code"></i></div>
+            <div class="card-body">
+              <h4 class="card-title">Front End</h4>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt eos architecto aliquam, laborum quod reiciendis sequi doloribus repellendus eaque? Porro error ducimus cupiditate ex nemo, voluptatem mollitia dolore qui ipsam.</p>
+              <button class="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="circle-bg circle-3"><i class="bi bi-collection"></i></div>
+            <div class="card-body">
+              <h4 class="card-title">Back End</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem magnam, aut ut dolores inventore vel eveniet expedita alias iste repudiandae consectetur iure debitis provident. Deserunt corrupti dicta commodi quaerat?</p>
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="container">
+        <h3 class="my-4">Good design means good business</h3>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col mt-5">
+            <div class="card">
+              <img src="smarthome.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text text-muted">Full Stack Application</p>
+                <h4 class="card-title">Smart Home Dashboard</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="onboard.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text text-muted">Ul/UX Design</p>
+                <h4 class="card-title">Onboard Application</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-5">
+            <div class="card">
+              <img src="booking.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text text-muted">Mobile Application</p>
+                <h4 class="card-title">Booking System</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="juice-product.png" class="card-img-top img-fluid" alt="">
+              <div class="card-body">
+                <p class="card-text text-muted">Front-end Application</p>
+                <h4 class="card-title">Juice Product Homepage</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-end">
+          <a href="#hero-input" class="text-primary">See more <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row my-4">
+          <div class="col-md-4">
+            <p class="text-danger fs-5">Meet the Team</p>
+            <h1>We are a chilled and laid back team</h1>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At totam tenetur, itaque voluptatem accusamus incidunt similique.</p>
+          </div>
+          <div class="col-md-8">
+        <div class="row">
+          <div class="col-5 mt-5"><img class="img-fluid rounded-3" src="person3.png" alt=""></div>
+          <div class="col-7">
+            <div class="row mb-2">
+              <div class="col-6"><img class="img-fluid rounded-3" src="person1.png" alt=""></div>
+            </div>
+            <div class="row">
+              <div class="col-6"><img class="img-fluid rounded-3" src="person2.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        <blockquote id="testimonial" class="blockquote col-md-8">
+          <q class="fs-2 fw-bolder">Fast and outstanding results.  Edie understands their customer's needs.  They have a young and talented team.</q>
+          <div>
+            <div class="d-flex align-items-center">
+              <div class="ps-5">
+                <img class="rounded-3 tran-img" src="person4.png" alt="">
+              </div>
+              <div class="ms-3 mt-4">
+                <p>Carlos Tran</p>
+                <p class="text-muted">The Decorate Gatsby</p>
+              </div>
+            </div>
+          </div>
+        </blockquote>
+      </section>
+    </main>
+    <footer class="text-lg-start bg-dark text-light pt-2">
+      <div class="container text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <p>
+              <a href="#home">Home</a>
+            </p>
+            <p>
+              <a href="#services">Services</a>
+            </p>
+            <p>
+              <a href="#projects">Our Works</a>
+            </p>
+            <p>
+              <a href="#testimonial">Clients</a>
+            </p>
+            <p>
+              <a href="#hero-input">Contact</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h1 class="fw-bold mb-4">
+              Edie
+            </h1>
+            <div class="d-flex">
+              <img class="me-2" src="instagram.svg" alt="Edie instagram" />
+              <img class="me-2" src="linkedin.svg" alt="Edie linkedin" />
+              <img class="me-2" src="twitter.svg" alt="Edie twitter" />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <p class="pb-4">
+              Want us to contact you?
+            </p>
+            <form class="position-relative">
+              <label for="footer-input" class="visually-hidden">Email Address</label>
+              <input class="form-control" id="footer-input" type="email" name="footer-input" placeholder="Email" required />
+              <button class="btn btn-primary rounded position-absolute top-0 end-0 transition-middle">Join</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
