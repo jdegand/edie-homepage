@@ -10,7 +10,7 @@
       Live Link
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
+    <a href="https://web.archive.org/web/20240526062209/https://legacy.devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
       Challenge
     </a>
   </h3>
@@ -21,15 +21,39 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+- [Thoughts](#thoughts)
 - [Useful Resources](#useful-resources)
 
 ## Overview
 
-![](edie-desktop.png)
+![Desktop](edie-desktop.png)
 
-![](edie-mobile.png)
+***
 
-![](edie-mobile-open.png)
+![Mobile](edie-mobile.png)
+
+***
+
+![Mobile Open](edie-mobile-open.png)
+
+***
+
+### Built With
+
+- [Bootstrap](https://getbootstrap.com/)
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20240526062209/https://legacy.devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories. **Note**: The previous design document may be incomplete, as you need to find an archived version of the challenge as all `legacy` challenges have had their documentation removed from DevChallenges.
+
+## Requirements 
+
+- [x] I can see a page following the given design
+- [x] I can see a page on mobile following the given design
+- [x] I can go to certain locations by selecting links in navigation or footer
+- [x] Surprise me with mobile navigation.
+
+## Thoughts
 
 - Bootstrap icons - use font-size and color to manipulate
 - Bootstrap overflow options are limited. Nothing to target overflow-x or overflow-y ?  
@@ -46,21 +70,6 @@
 - I shifted the 3 picture grid on smaller screens to underneath the paragraph
 
 - This project refreshed my knowledge of Bootstrap (v5 vs v4).  
-
-### Built With
-
-- [Bootstrap](https://getbootstrap.com/)
-
-## Features
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
-
-## Requirements 
-
-- [x] I can see a page following the given design
-- [x] I can see a page on mobile following the given design
-- [x] I can go to certain locations by selecting links in navigation or footer
-- [x] Surprise me with mobile navigation.
 
 ## Useful Resources
 

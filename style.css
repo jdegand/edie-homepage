@@ -1,4 +1,4 @@
-a, 
+a,
 li {
     color: #000;
     text-decoration: none;
@@ -36,7 +36,7 @@ footer img:hover {
     background: red;
 }
 
-.circle-bg > i {
+.circle-bg>i {
     position: absolute;
     top: 50%;
     left: 50%;
